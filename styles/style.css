@@ -199,6 +199,7 @@ box-shadow: 5px;
 @media only screen and (max-width:688px){
     .nav-bar{
         list-style-position: inside;
+        font-size: small;
     }
     .side-menu{
         position: absolute;
@@ -225,8 +226,8 @@ box-shadow: 5px;
     .container{
         width: 100%;
         margin-left: 0px;
-
-    }
+        overflow-x: hidden;
+        justify-content: center;}
     hr{
       visibility:hidden;
     }
@@ -238,6 +239,12 @@ box-shadow: 5px;
     }
     .final-step{
         display: block;
+    }
+    .final-title{
+        width: 100%;
+        text-align: center;
+        margin-left: -10%;
+        padding-left: 0%;
     }
     .final-image img{
         width: 80%;
